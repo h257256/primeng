@@ -13,6 +13,7 @@ export class LoginComponent {
     message: string;
     userName: string;
     password: string;
+    email: string;
 
      constructor(public authService: AuthService, public router: Router) {
        this.setMessage();
