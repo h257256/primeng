@@ -1,0 +1,22 @@
+
+<p-panel>
+  <p-header>
+       <app-header></app-header>
+  </p-header>
+  <!-- content begin-->
+  <div class="ui-g">
+        <div class="ui-g-12 ui-md-2">
+          <app-menu></app-menu>
+        </div>
+    
+        <div class="ui-g-12 ui-md-10 ui-g-nopad">
+            <router-outlet ></router-outlet>
+        </div>
+    </div>
+   <!-- content end -->
+   
+    <p-footer>
+       <app-footer></app-footer>
+    </p-footer>
+
+</p-panel>

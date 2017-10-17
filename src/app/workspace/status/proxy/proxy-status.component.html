@@ -1,0 +1,6 @@
+{{ message }}
+<div class="dataTable">
+    <p-dataTable [value]="states">
+        <p-column *ngFor="let col of cols" [field]="col.field" [header]="col.header"></p-column>
+    </p-dataTable>
+</div>

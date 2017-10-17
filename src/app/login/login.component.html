@@ -1,0 +1,16 @@
+<div>
+    
+    <p>{{message}}  </p>
+    <span class="ui-float-label">
+            <input id="float-input-username" type="text" size="30" pInputText [(ngModel)]="userName"> 
+            <label for="float-input-username">姓名</label>
+    </span>
+    <br>
+    <span class="ui-float-label">
+            <input id="float-input-password" type="password" size='30' pPassword [(ngModel)]="password"/>
+            <label for="float-input-password">密码</label>
+    </span>
+    <br>
+    
+    <button pButton type="button"  icon="fa fa-sign-in" iconPos="left" label='登录' (click)="login() "></button>
+</div>
